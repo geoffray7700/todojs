@@ -12,7 +12,13 @@ body {
 }
 
 header {
-    font-size:1.5rem;
+    font-size:3rem;
+}
+footer {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 header,
@@ -49,6 +55,16 @@ form button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.index-container {
+
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+text-align:center;
+
+}
+
 
 .todo-list {
     min-width: 30%;
@@ -139,3 +155,11 @@ select{
     color: #161661;
 }
 
+.index-button{
+    background:  #dff707;
+    color: black;
+    border: 0.5rem;
+    font-size: 1.5em;
+    padding: 1rem;
+
+}

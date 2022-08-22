@@ -16,18 +16,29 @@
 
 </head>
 <body>
-    <header><h1>Todo or not to do</h1></header>
+    <header><h1>Agenda</h1></header>
+<form>
+<input type="text" class="todo-input">
+<button class="todo-button" type="submit">
+    <i class="fa-solid fa-square-plus"></i>
+</button>
 
-<div class="index-container">
-    <br>
-<ul> <a href="agenda.html" class="index-button">AGENDA</a> </ul> <br>
-   <ul> <a href="course.html" class="index-button">COURSE</a> </ul><br>
-   <ul> <a href="divers.html" class="index-button">DIVERS</a> </ul><br>
-   <ul> 
-    <a href="travaux.html" class="index-button" type="submit">TRAVAUX</a> 
-
-
-</ul><br>
+<div class="select">
+    <select name="todos" class="filter-todo">
+        <option value="all">Toutes</option>
+        <option value="completed">Complété</option>
+        <option value="uncompleted">A faire</option>
+    </select>
 </div>
+
+
+</form>
+<div class="todo-container">
+<ul class="todo-list"></ul>
+</div>
+<script src="./app.js"></script>
 </body>
+<footer>
+    <a href="index.html" class="index-button">RETOUR</a>
+</footer>
 </html>
